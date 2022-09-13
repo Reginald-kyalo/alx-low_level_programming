@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
- * a function that prints to output the sizes of various native variables.
+/**
+ *  main - Entry point
  *
- * Return: Always 0 (Success)
+ *  Return: Always 0 (Success)
  *
  */
 int main(void)
