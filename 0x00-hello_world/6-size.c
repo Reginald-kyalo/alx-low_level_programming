@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - Entry point
+ * main - a function that prints to output the sizes of various native variables.
  *
  * Return: Always 0 (Success)
  *
