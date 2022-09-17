@@ -1,10 +1,11 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
  *main - prints out first 50
  *fibonacci suit numbers
  *Return: return 0
  */
+
 int main(void)
 {
 	int inc;
@@ -17,15 +18,13 @@ int main(void)
 		n1 = n2;
 		n2 = n3;
 
-
 		if (inc == 49)
 			printf("\n");
 		else
 			printf(", ");
 
-
 	}
 
-
 	return (0);
+
 }
