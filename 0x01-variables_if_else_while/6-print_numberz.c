@@ -6,7 +6,7 @@
  * Return: nothing
  */
 
-void main(void)
+int main(void)
 {
 	int i = 0;
 
@@ -16,4 +16,5 @@ void main(void)
 		i++;
 	}
 	putchar('\n');
+	return (0);
 }

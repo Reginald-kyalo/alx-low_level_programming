@@ -4,10 +4,10 @@
  * main - prints possible combination of
  * single digits in ascending order
  *
- * Return: nothing
+ * Return: 0
  */
 
-void main(void)
+int main(void)
 {
 	int i = 0;
 
@@ -21,4 +21,5 @@ void main(void)
 		i++;
 	}
 	putchar('\n');
+	return (0);
 }

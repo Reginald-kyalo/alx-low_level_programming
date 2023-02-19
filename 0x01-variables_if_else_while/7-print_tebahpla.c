@@ -3,10 +3,10 @@
 /**
  * main - prints the alphabet
  *
- * Return: nothing
+ * Return: 0
  */
 
-void main(void)
+int main(void)
 {
 	char i = 'z';
 
@@ -16,4 +16,5 @@ void main(void)
 		i--;
 	}
 	putchar('\n');
+	return (0);
 }
