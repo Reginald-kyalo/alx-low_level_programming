@@ -3,10 +3,10 @@
 /**
  * main - prints the alphabet
  *
- * Return: always 0
+ * Return: nothing
  */
 
-int main()
+void main(void)
 {
 	char i = 'a';
 
