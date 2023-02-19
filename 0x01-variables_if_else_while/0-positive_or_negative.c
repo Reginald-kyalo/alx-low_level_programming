@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/** main - prints whether random number generated is positive, zero or negative
+/** 
+ * main - prints whether random number generated is positive, zero or negative
  * @n: random number
  *
  * Return: always 0
