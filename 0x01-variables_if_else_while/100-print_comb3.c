@@ -4,10 +4,10 @@
  * main - prints possible combinations of two digit
  * numbers in ascending order
  *
- * Return: nothing
+ * Return: 0
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 	int j;
@@ -25,4 +25,5 @@ void main(void)
 		}
 	}
 	putchar('\n');
+	return (0);
 }
