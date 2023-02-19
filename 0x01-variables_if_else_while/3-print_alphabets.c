@@ -3,9 +3,10 @@
 /**
  * main - prints the alphabet in upper and lower case
  *
+ * Return: 0
  */
 
-void main(void)
+int main(void)
 {
 	char i = 'a';
 	char j = 'A';
@@ -21,4 +22,5 @@ void main(void)
 		j++;
 	}
 	putchar('\n');
+	return (0);
 }
