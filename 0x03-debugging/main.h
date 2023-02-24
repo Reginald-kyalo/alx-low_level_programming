@@ -2,6 +2,7 @@
 
 #define MAIN_H_INCLUDED
 
+#include <stdio.h>
 
 
 int _putchar(char);
@@ -33,5 +34,7 @@ void print_times_table(int n);
 void num(int r, int n);
 
 void positive_or_negative(int i);
+
+int largest_number(int a, int b, int c);
 
 #endif
