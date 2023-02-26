@@ -2,7 +2,7 @@
 
 /**
  * mul - multiplies two digits
- * 
+ *
  * @a: digit to be multiplied
  * @b: digit to be multiplied
  * Return: value after multiplication
