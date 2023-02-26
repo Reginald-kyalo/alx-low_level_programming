@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * most_numbers - prints 0 - 14 ten times followed by a new line
+ * more_numbers - prints 0 - 14 ten times followed by a new line
  *
  * Return: nothing
  */
 
-void most_numbers(void)
+void more_numbers(void)
 {
 	int i;
 	int j;
