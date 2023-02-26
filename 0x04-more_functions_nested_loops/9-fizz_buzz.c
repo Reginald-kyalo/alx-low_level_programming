@@ -7,7 +7,7 @@
  * numbers divisible by 5 by Buzz and
  * numbers divisible by both are replaced by FizzBuzz
  *
- * Return: nothing
+ * Return: 0 success
  */
 
 int main(void)
@@ -36,4 +36,5 @@ int main(void)
 			printf(" ");
 	}
 	printf("\n");
+	return (0);
 }
