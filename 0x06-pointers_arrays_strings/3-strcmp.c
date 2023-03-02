@@ -5,37 +5,20 @@
  * @s1: string to be compared
  * @s2: with this
  *
- * Return: 15 if dest is bigger than src, -15 the other way
- * and 0 if they are equal in length
+ * Return: If str1 < str2, the negative difference
+ * of the first unmatched characters.
+ *         If str1 == str2, 0.
+ *         If str1 > str2, the positive difference
+ * of the first unmatched characters.
  */
-
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0;
-	int j = 0;
-	int s1_len = 0;
-	int s2_len = 0;
-
-	while (s2[i++])
+	while (*s1 && *s2 && *s1 == *s2)
 	{
-		s2_len++;
-	}
-	while (s1[j++])
-	{
-		s1_len++;
+		s1++;
+		s2++;
 	}
 
-	if (s1_len > s2_len)
-	{
-		return (15);
-	}
-	else if (s2_len > s1_len)
-	{
-		return (-15);
-	}
-	else if (s2_len == s1_len)
-	{
-		return (0);
-	}
-
+	return (*s1 - *s2);
 }
+
