@@ -9,7 +9,7 @@
  * and 0 if they are equal in length
  */
 
-char _strcmp(char *dest, char *src)
+int _strcmp(char *dest, char *src)
 {
 	int i = 0;
 	int j = 0;
