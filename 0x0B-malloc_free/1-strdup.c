@@ -26,6 +26,7 @@ char *_strdup(char *str)
 	}
 	if (str_len != 0)
 	{
+		i = 0;
 		while (i <= str_len)
 		{
 
