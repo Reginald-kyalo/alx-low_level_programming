@@ -19,7 +19,8 @@ char *_strdup(char *str)
 		i++;
 		str_len++;
 	}
-	array = malloc(str_len * sizeof(char));
+	str_len++;
+	array = (char *) malloc(str_len * sizeof(char));
 	if (str == NULL)
 	{
 		return (NULL);
@@ -27,7 +28,7 @@ char *_strdup(char *str)
 	if (str_len != 0)
 	{
 		i = 0;
-		while (i <= str_len)
+		while (i < str_len)
 		{
 
 			array[i] = str[i];
