@@ -4,6 +4,7 @@
  * main - prints number if command line arguments passed
  *
  * Return: int
+ *
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
