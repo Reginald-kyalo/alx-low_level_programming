@@ -2,6 +2,8 @@
 
 /**
  * main - prints number if command line arguments passed
+ * @argc: argument count
+ * @argv: array
  *
  * Return: int
  *
