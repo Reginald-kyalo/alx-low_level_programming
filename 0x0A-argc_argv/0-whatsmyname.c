@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -6,7 +5,7 @@
  * @argc: argument counter
  * @argv: array containing arguments
  *
- * Return: 0 success
+ * Return: pointer to argv
  */
 int main(int argc, char *argv[])
 {
