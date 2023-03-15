@@ -3,10 +3,10 @@
 /**
  * main - prints number if command line arguments passed
  *
- * Return: pointer to argv
+ * Return: int
  */
-int main(int argc, char  *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%d\n", argc);
+	printf("%d\n", argc - 1);
 	return (0);
 }
