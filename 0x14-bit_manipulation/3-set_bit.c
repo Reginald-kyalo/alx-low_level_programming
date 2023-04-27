@@ -2,11 +2,10 @@
 
 /**
  * set_bit - Sets the value of a bit to 1 at a given index.
- *
  * @n: pointer to the unsigned long int that contains the bit to be set
  * @index: index of the bit to be set, starting from 0
  *
- * @return: 1 if successful, or -1 if an error occurred
+ * Return: 1 if successful, or -1 if an error occurred
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {

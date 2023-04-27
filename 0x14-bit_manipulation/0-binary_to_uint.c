@@ -2,9 +2,9 @@
 
 /**
  * binary_to_uint - converts a binary result to an unsigned integer
- * @b - pointer to the binary resultb
+ * @b: pointer to the binary resultb
  *
- * Return - result(unsigned int)
+ * Return: result(unsigned int)
  */
 unsigned int binary_to_uint(const char *b)
 {
