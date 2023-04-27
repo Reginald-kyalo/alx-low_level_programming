@@ -3,8 +3,9 @@
 /**
  * get_bit - returns the value of a bit at a given index
  * @index: index
+ * @n: long int to be checked
  *
- * Return: value of bit
+ * Return: 1 or 0 value of bit
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
